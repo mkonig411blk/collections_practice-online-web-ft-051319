@@ -21,4 +21,9 @@ def swap_elements(arr)
     arr[a] <=> arr[b]
   end
 end
+
+def reverse_array(arr)
+  arr.reverse do |value|
+end
+end
   
