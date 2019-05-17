@@ -38,7 +38,7 @@ new_arr
 end
 
 def find_a(arr)
-  arr.start_with? do |
+end
 
 def sum_array(arr)
 end
