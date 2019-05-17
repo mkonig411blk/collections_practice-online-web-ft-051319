@@ -26,4 +26,8 @@ def reverse_array(arr)
   arr.reverse do |value|
 end
 end
+
+def kesha_maker(arr)
+  new_arr = []
+  arr.each do |
   
