@@ -41,6 +41,17 @@ def find_a(arr)
   arr.start_with? do |
 
 def sum_array(arr)
+end
+
+def add_s(arr)
+  arr.each_with_index.collect do |word, index|
+    if index != 1 
+      word << "s"
+    else
+      word
+    end
+  end
+  
   
   
   
