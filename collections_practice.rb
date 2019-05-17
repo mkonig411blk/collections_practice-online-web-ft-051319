@@ -36,4 +36,7 @@ end
 new_arr
 end
 
+def find_a(arr)
+  arr.start_with? do |
+
   
