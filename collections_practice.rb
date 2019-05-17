@@ -38,7 +38,7 @@ new_arr
 end
 
 def find_a(arr)
-  arr.find do |string|
+  arr.select do |string|
     string.start_with?("a")
 end
 end
