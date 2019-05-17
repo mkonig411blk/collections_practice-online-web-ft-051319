@@ -38,6 +38,9 @@ new_arr
 end
 
 def find_a(arr)
+  arr.select do |string|
+    string.start_with?("a")
+end
 end
 
 def sum_array(arr)
