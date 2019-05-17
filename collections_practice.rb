@@ -18,7 +18,7 @@ end
 
 def swap_elements(arr)
   arr.sort do |a, b|
-    arr[0] <=> arr[1]
+    arr[a] <=> arr[b]
   end
 end
   
