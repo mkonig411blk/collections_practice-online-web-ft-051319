@@ -30,7 +30,8 @@ end
 def kesha_maker(arr)
   new_arr = []
   arr.each do |value|
-  new_arr << value[2] + "$"
+    value[2] = "$"
+  new_arr << value
 end
 new_arr
 end
