@@ -40,4 +40,7 @@ end
 def find_a(arr)
   arr.start_with? do |
 
+def sum_array(arr)
+  
+  
   
