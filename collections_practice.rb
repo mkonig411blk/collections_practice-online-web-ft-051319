@@ -51,6 +51,7 @@ def add_s(arr)
       word
     end
   end
+  end
   
   
   
